@@ -1,4 +1,3 @@
-# My Plugin
 # react-native-snap-carousel Ignite Plugin
 
 
