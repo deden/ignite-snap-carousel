@@ -1,0 +1,23 @@
+import React from 'react'
+import { View, Text } from 'react-native'
+import ExamplesRegistry from '../../../App/Services/ExamplesRegistry'
+import Carousel from 'react-native-snap-carousel';
+
+// Example
+ExamplesRegistry.addPluginExample('SnapCarousel', () =>
+  <View style={{margin: 20}}>
+    <Carousel
+      ref={(c) => { this._carousel = c; }}
+      data={this.state.entries}
+      renderItem={renderItem}
+      sliderWidth={sliderWidth}
+      itemWidth={itemWidth}
+    />
+  </View>
+)
+
+const renderItem = ({item, index}) => {
+  return <View style={styles.slide}>
+                <Text style={styles.title}>{ item.title }</Text>
+            </View>
+}
