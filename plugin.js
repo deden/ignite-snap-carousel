@@ -2,7 +2,7 @@
 // ----------------------------------------------------------------------------
 
 const NPM_MODULE_NAME = 'react-native-snap-carousel'
-const NPM_MODULE_VERSION = '0.0.1'
+const NPM_MODULE_VERSION = '3.4.0'
 
 // const PLUGIN_PATH = __dirname
 // const APP_PATH = process.cwd()
