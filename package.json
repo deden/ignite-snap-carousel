@@ -1,7 +1,7 @@
 {
   "name": "ignite-snap-carousel",
   "description": "An Ignite plugin which installs react-native-snap-carousel.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "name": "Deden Ramadhan",
