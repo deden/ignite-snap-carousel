@@ -14,7 +14,7 @@ test('adds the proper npm module and component example', async t => {
 
   await plugin.add(context)
   
-  t.true(addModule.calledWith('react-native-MODULENAME', { link: true }))
+  t.true(addModule.calledWith('react-native-snap-carousel', { link: true }))
   t.true(
     addPluginComponentExample.calledWith('SnapCarouselExample.js', {
       title: 'SnapCarousel Example'
